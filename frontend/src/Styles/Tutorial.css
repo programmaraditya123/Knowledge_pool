@@ -1,0 +1,90 @@
+.tutorial{
+    text-align: center;
+}
+
+/* Tutorial top navbar */
+
+
+/* Tutorial carousel navbar */
+
+
+
+
+/* Tutorial body */
+.tutbody{
+    display: flex;
+    
+}
+.ltutbody{
+    flex-basis: 15%;
+    background-color: aqua;
+}
+.ctutbody{
+    flex-basis: 73%;
+    background-color: whitesmoke;
+}
+.rtutbody{
+    flex-basis: 12%;
+    background-color: red;
+}
+
+/* left part of the main body */
+.ltutbodyitems{
+    scroll-behavior: smooth;
+    height: 38rem;
+    overflow: auto;
+}
+
+.ltutbodyitems li{
+    text-align: left;
+    list-style: none;
+    padding: 0.4rem;
+    padding-left: 1rem;
+}
+.ltutbodyitems li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* center part of the div mian body */
+.ctutbodyitems{
+    padding: 0.8rem;
+    scroll-behavior: smooth;
+    height: 38rem;
+    overflow: auto;
+}
+.ctutbodyitems h1{
+    text-align: left;
+    font-size: 2rem;
+}
+.ctutbodyitems h5{
+    text-align: left;
+    /* font-size: 2rem; */
+}
+.cont1 p{
+    text-align: left;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+.cont1 li{
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+/* media queries  */
+@media screen and (max-width: 480px) {
+    .rtutbody{
+      display: none;
+    }
+    .ctutbody{
+        flex-basis: 75%;
+    }
+    .ltutbody{
+        flex-basis: 25%;
+    }
+   
+  }
+
+
+ 

@@ -1,0 +1,142 @@
+/*---------------------------------------Footer.js CSS ------------------------------------ */
+.footer{
+    height: auto;
+    background-color: rgb(61, 45, 45);
+    margin-top: 2rem;
+  }
+  .upperfooter{
+    height: auto;
+    display: flex;
+    /* background-image: url('../src/images/182428240217.jpg'); */
+     
+  }
+  .rightfooter{
+    flex-basis: 35%;
+    /* background-color: black; */
+    color: white;
+    padding: 4rem;
+  }
+  .rightfooter1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .rightfooter2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+  }
+  .rightfooter h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .rightfooter31 ul li{
+    list-style: none;
+  }
+  .rightfooter31 ul li::before{
+     content: ">";
+     font-size: 1.5rem;
+  }
+  .rightfooter32 ul li{
+    list-style: none;
+  }
+  .rightfooter32 ul li::before{
+     content: ">";
+      
+     font-size: 1.5rem;
+  }
+  .rightfooter3{
+    display: flex;
+    gap: 7rem;
+     
+  }
+  .rightfooter4 {
+    display: -webkit-box;
+    font-size: 1.2rem;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .rightfooter5 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .rightfooter6{
+    display: flex;
+    gap: 6rem;
+    margin-top: 3rem;
+    
+  }
+  .logo{
+    font-size: 2rem;
+    margin:0.5rem;
+  }
+  .bt1 {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    font-size: 0.9;
+    padding: 0.2rem;
+  }
+  /* .btn1 {
+    font-size: 2rem;
+  } */
+  .leftfooter{
+    flex-basis: 65%;
+    /* background-image: url('../src/images/182428240217.jpg'); */
+    padding: 2rem;
+  }
+  .leftfooter1{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.3rem;
+    color: white;
+  }
+   
+  .leftfooter h1 {
+    font-size: 1rem;
+    color: white;
+    padding: 0.3rem;
+  }
+  .leftfooter li {
+    font-size: 0.8rem;
+    list-style: ">";
+    color: white;
+    padding: 0.1rem;
+  }
+  .leftfooter li:hover{
+    color: yellow ;
+  }
+  .leftfooter p:hover{
+    color: blue
+  };
+  .leftfooter li::before {
+    content: ">";
+    color: white;
+  }
+  .leftfooter2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .leftfooter3{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .leftfooter4{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .lowerfooter{
+    height: 10vh;
+    text-align: center;
+    margin: inherit;
+     
+  }
+  

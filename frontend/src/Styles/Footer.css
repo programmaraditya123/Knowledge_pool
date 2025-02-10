@@ -1,0 +1,111 @@
+.footerdiv{
+    margin: 2rem;
+    box-sizing: border-box;
+    color: white;
+}
+.innerfooterdiv{
+    background-color:rgb(6, 29, 11);
+    border-radius: 2rem;
+    padding: 2rem;
+     
+}
+.ffdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 4rem;
+}
+.ffldiv {
+    font-size: 4rem;
+    font-weight: 100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    width: fit-content;  
+    line-height: 1.2; 
+    text-align: left;
+}
+
+.ffrdiv{
+    font-size: 1.4rem;
+    line-height: 2;
+    align-items: center;
+}
+.btn-5{
+    padding: 0.9rem 1.5rem 0.9rem 1.5rem;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 2rem;
+    margin-top: 1.9rem;
+    background-color: aquamarine;
+    cursor: pointer;
+    border: none;
+}
+.ffcdiv{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 6.6rem;
+    size: 4rem;
+    
+}
+.yellow{
+    color: yellow;
+    font-weight: 500;
+}
+.fsdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem 2rem 5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    /* border: 2px solid white; */
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(33, 106, 52);
+    border-radius: 1.5rem;
+    align-items: center;
+    border: none;
+}
+.fssdiv input{
+    height: 2rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+}
+.btn-6{
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    padding: 0.2rem 0.6rem 0.2rem 0.4rem;
+    cursor: pointer;
+}
+.ftdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem 2rem 5rem;
+    margin-top: 4rem;
+    line-height: 1.5rem;
+    color: white;
+}
+.ftddiv li{
+    list-style: none;
+}
+.ftddiv li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.itemhead{
+    font-size: 1.2rem;
+}
+.ffourthdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem 2rem 5rem;
+    margin-top: 4rem;
+}
+.logoname{
+    font-size: 6rem;
+}
+ 
+ 

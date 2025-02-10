@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.maindiv{
+    display: flex;
+}
+.ldiv{
+    flex-basis: 17%;
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+}
+.rdiv{
+    flex-basis: 83%;
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+}
+.lnavbar{
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    padding: 0rem 0.8rem 0rem 0.4rem;
+}
+.postbtn{
+    padding: 0.8rem 0rem 0.8rem 0rem;
+    margin-top: 1.2rem;
+}
+.post,.content{
+    border: 0.1rem solid black;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem 0rem 0.3rem 0rem;
+    border-radius: 1rem;
+    background-color: darkturquoise;
+    color: white;
+    cursor: pointer;
+}
+.content{
+    border: 0.1rem solid black;
+    margin-top: 1.2rem;
+}
+.litems{
+    margin-top: 1rem;
+}
+.litems li{
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.litems li:hover{
+    background-color: aqua;
+    border-radius: 0.4rem;
+}
+.itemsdown{
+    margin-top: 2.5rem;
+}
+.itemsdown li{
+    list-style: none;
+}
+.gene{
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+}
+.itemsdown1{
+    padding: 0.5rem;
+}
+
+.gene div{
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+.li1{
+    text-align: center;
+}
+.li2{
+    font-size: 0.9rem;
+}
+.btn4 {
+    background-color:whitesmoke;
+    border-radius: 0.4rem;
+    color: white;
+    width: 12rem;
+    height: 1.8rem;
+    margin-top: 0.2rem;
+    color: black;
+    font-size: 1rem;
+}
+.link1 {
+    display: ruby;
+    padding: 0.4rem;
+    color: black;
+     
+}
+.rdivnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.rdivnav img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+}
+.rdivnav2{
+    display: flex;
+    gap: 2rem;
+}
+
+.btn5{
+    background-color:whitesmoke;
+    border-radius: 0.4rem;
+    color: white;
+    width: auto;
+    padding: 0rem 0.2rem 0rem 0.2rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    color: black;
+    font-size: 1rem;
+}
+.postbody{
+    border-top: 0.1rem solid whitesmoke;
+    margin-top: 0.5rem;
+}
+.postgen,.idea,.posts,.inspiration,.postref,.schedule{
+    display:none;
+}
+
