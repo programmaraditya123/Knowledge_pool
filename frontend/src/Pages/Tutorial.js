@@ -10,7 +10,7 @@ const Tutorial = () => {
     <div className='tutcarousel'><h1>this is carousel bar</h1></div>
     <div className='tutbody'>
       <div className='ltutbody'>
-        <div className='ltutbodyitems'>
+        <div className='ltutbodyitems' >
           <li>What is python?</li>
           <li>Python Data Types</li>
           <li>Python Comments</li>
