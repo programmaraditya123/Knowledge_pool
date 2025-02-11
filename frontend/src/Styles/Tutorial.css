@@ -1,6 +1,13 @@
 .tutorial{
     text-align: center;
 }
+*{
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+ 
 
 /* Tutorial top navbar */
 
@@ -27,6 +34,15 @@
     flex-basis: 12%;
     background-color: red;
 }
+.ctutbodyitems p {
+    text-align: left;
+    font-size: 2rem;
+}
+.ctutbodyitems h4{
+    text-align: left;
+    margin-top: 0.5rem;
+}
+ 
 
 /* left part of the main body */
 .ltutbodyitems{
@@ -63,15 +79,26 @@
 }
 .cont1 p{
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-top: 0.5rem;
 }
 .cont1 li{
     padding-top: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: left;
 }
-
+.cont2 img{
+    width: 75%;
+    height: 20rem;
+}
+.cont2 p{
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+.cont2 h2{
+    text-align: left;
+    font-weight: 400;
+}
 /* media queries  */
 @media screen and (max-width: 480px) {
     .rtutbody{
