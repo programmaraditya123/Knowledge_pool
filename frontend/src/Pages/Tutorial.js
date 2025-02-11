@@ -51,6 +51,7 @@ const Tutorial = () => {
           <li>Strings in python</li>
           <li>Tuples in python</li>
           <li>Graphs in python</li>
+          <li>Anant</li>
         </div>
       </div>
       <div className='ctutbody'> 
